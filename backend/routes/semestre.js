@@ -5,7 +5,7 @@ const {
   getSemestres,
   updateSemestre,
   deleteSemestre
-} = require('../controllers/semestreController');
+} = require('../controllers/SemestreController');
 
 //const { protect } = require('../middleware/authMiddleware');
 //const { allowRoles } = require('../middleware/roleMiddleware');
