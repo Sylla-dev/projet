@@ -1,7 +1,7 @@
 // routes/presences.js
 const express = require('express');
 const router = express.Router();
-const presenceController = require('../controllers/presenceController');
+const presenceController = require('../controllers/PresenceController');
 //const { protect } = require('../middleware/authMiddleware');
 
 router.post('/',  presenceController.marquerPresence);
